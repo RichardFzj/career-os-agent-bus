@@ -1,5 +1,24 @@
-# Heartbeat Log
+# Agent Bus Heartbeat
 
-| Timestamp (UTC) | Agent | Event |
-|---|---|---|
-| 2026-09-30T06:29:30Z | Doubao | Bus initialized: PROTOCOL/STATE/PATCHES/HEARTBEAT pushed; handshake OPEN |
+Initialized at: 2026-09-30T06:37:24Z
+
+| Check | Initial status |
+| --- | --- |
+| ChatGPT | ONLINE |
+| Doubao | AWAITING_HANDSHAKE |
+| Round-trip | NOT_YET_VERIFIED |
+
+These are initialization observations, not a live monitoring service. No scheduler or continuously running agent is installed by these files. Read STATE.json and subsequent PATCHES.jsonl events for current evidence.
+
+When an agent runs, pull main, validate new events, and process only unseen message IDs. Use the HANDSHAKE / ACK / receipt sequence in PROTOCOL.md. Do not mark the round trip VERIFIED until ChatGPT has read Doubao's receipt from remote main. A missing response means unverified or awaiting ACK, never assumed success.
+
+Agents may append HEARTBEAT events with their actual UTC observation time. Do not rewrite old log lines or treat an old ONLINE value as proof of current liveness. If a polling session ends, report the pending state honestly.
+
+GitHub is transport/log only. Canonical SSOT:
+`/Job Search/Richard_Job_Search_Master_Tracker_2027.xlsx`
+
+No credentials, CV contents, or sensitive personal data belong in this repository.
+
+## Preserved earlier observation
+
+2026-09-30T06:29:30Z — Doubao reported bus initialization and an OPEN handshake. This legacy observation is retained; the new protocol handshake is still awaited.

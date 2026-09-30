@@ -1,43 +1,60 @@
-# Career OS Agent Bus — Protocol v1.0
+# Agent Bus Protocol
 
-## 1. Purpose
-Persistent, versioned communication bus between **Doubao (Agent#2)** and **GPT (Agent#1)**.
-This repo is **not** a second tracker. It carries messages, patches and heartbeats only.
+Repository: RichardFzj/career-os-agent-bus; branch: main.
 
-## 2. Source of truth
-- **SSOT**: `Richard_Job_Search_Master_Tracker_2027.xlsx` maintained by GPT.
-- **Collaboration mirror**: Feishu Base `VpXWbtooNas1tSsTps8cnRz5nEg` (Doubao read/write).
-- Bus conflicts are resolved by GPT; Doubao never overwrites SSOT data.
+## Scope and source of truth
 
-## 3. Files
-| File | Owner | Meaning |
-|---|---|---|
-| `PROTOCOL.md` | both | This contract |
-| `STATE.json` | Doubao | Machine/agent status snapshot (overwritten each run) |
-| `PATCHES.jsonl` | both | Append-only messages; never reorder or delete lines |
-| `HEARTBEAT.md` | both | One liveness line per agent run |
+GitHub is transport/log only. The canonical single source of truth (SSOT) remains:
+`/Job Search/Richard_Job_Search_Master_Tracker_2027.xlsx`
 
-## 4. Message schema (one JSON object per PATCHES.jsonl line)
-`message_id` | `timestamp` (UTC ISO) | `from` (Doubao/GPT) | `type` | `job_id` (or ALL / comma list) | `payload` (object) | `source_urls` (array) | `confidence` (A High / B Medium / C Low) | `status` (OPEN / MERGED / NEED_VERIFY / CONFLICT / DUPLICATE) | `ack_by`
+Messages are coordination events or proposed operations, not authoritative tracker records. An ACK confirms receipt only; it never proves that the tracker was updated. Only report an SSOT change after actually applying and verifying it through authorized access.
 
-Types: `HANDSHAKE` · `PATCH` · `INFO` · `QUESTION` · `ACK` · `BLOCKED` · `HEARTBEAT`
+Never commit credentials, tokens, private keys, CV contents, or sensitive personal data, including in payloads, errors, commit messages, or attachments. Use opaque job IDs and minimal non-sensitive metadata. Keep the existing README unchanged.
 
-## 5. Workflow
-1. Agent starts run: `git pull`; read new PATCHES lines since last seen message_id.
-2. Doubao appends discoveries / verifications / salary evidence as `PATCH` (status=OPEN).
-3. GPT independently verifies, merges into SSOT, then appends `ACK` with MERGED / NEED_VERIFY / CONFLICT / DUPLICATE and sets the original line status accordingly.
-4. Conflicting evidence → status=CONFLICT, both versions kept, GPT adjudicates.
-5. Every run appends a line to HEARTBEAT.md and updates STATE.json.
-6. Urgent deadline / salary evidence gets its own message; scan batches may be grouped.
+## Message envelope
 
-## 6. Hard rules
-- No fabricated deadlines, salaries or reviews; unknown = "待补充".
-- Evidence tiers: official > third-party (Levels.fyi/Glassdoor w/ sample size & date) > community (Xiaohongshu/Douyin/1point3acres/Kanzhun/Zhihu, link + date) > inference.
-- No live OA answers; no changing Richard's final Status; no final Submit for him.
-- Login walls / CAPTCHAs stop the automated leg and are logged BLOCKED.
-- Quota-limited programs (e.g. BofA): APAC quota prioritizes **Hong Kong / Shanghai, then Singapore**; quota accounting written in the message.
-- While repo is Public: no CV, phone numbers, personal data — message/job IDs and non-sensitive findings only.
+Every line of PATCHES.jsonl is one complete UTF-8 JSON object with exactly these fields, in this order:
 
-## 7. Known limitations (2026-09-30)
-- GPT connector: repo read OK, file write returns `403 Resource not accessible by integration`.
-  Until fixed, GPT→Doubao ACKs use a public Gist owned by GPT (raw URL registered in STATE.json) or another verified writable channel.
+message_id | timestamp | from | type | job_id | payload | status | ack_by
+
+| Field | Value |
+| --- | --- |
+| message_id | Globally unique string, preferably UUID; stable across retries. |
+| timestamp | Actual event time in UTC, ISO 8601 with Z suffix. |
+| from | ChatGPT or Doubao. |
+| type | INIT, HANDSHAKE, ACK, HEARTBEAT, PATCH, or ERROR. |
+| job_id | Opaque job identifier, or null for bus events. |
+| payload | JSON object containing minimal non-sensitive event data. |
+| status | INFO, PENDING, ACKNOWLEDGED, or ERROR. |
+| ack_by | null until acknowledgement; acknowledging agent name on an ACK event. |
+
+PATCHES.jsonl is append-only: one JSON object per line, newline terminated, no blank lines, comments, arrays wrapping the log, or Markdown fences. Never edit, delete, reorder, or reformat existing lines. Corrections and acknowledgements are new events referencing the original message_id in payload.in_reply_to. Historical status and ack_by fields remain unchanged; effective status is derived from later events.
+
+## Initial state
+
+ChatGPT=ONLINE; Doubao=AWAITING_HANDSHAKE; round-trip=NOT_YET_VERIFIED.
+ONLINE records availability at initialization, not a claim of a continuously running worker. STATE.json is a derived coordination snapshot, not the SSOT. HEARTBEAT.md explains liveness and verification.
+
+## Handshake and ACK
+
+1. Doubao uses its already-configured write-enabled deploy key to clone or pull main over SSH: git@github.com:RichardFzj/career-os-agent-bus.git. Read all four bus files.
+2. Append one HANDSHAKE event with a new message_id, current UTC timestamp, from="Doubao", job_id=null, payload={"protocol_version":"1.0","ready":true}, status="PENDING", ack_by=null. Commit and push main, then read the pushed event back.
+3. ChatGPT reads that remote event and appends an ACK with a new message_id, current UTC timestamp, from="ChatGPT", type="ACK", job_id=null, payload={"in_reply_to":"<Doubao HANDSHAKE message_id>"}, status="ACKNOWLEDGED", ack_by="ChatGPT". It commits and pushes the ACK.
+4. Doubao pulls until it observes that matching ChatGPT ACK. It appends one receipt ACK with from="Doubao", payload={"in_reply_to":"<ChatGPT ACK message_id>","handshake_message_id":"<original HANDSHAKE message_id>","round_trip_received":true}, status="ACKNOWLEDGED", ack_by="Doubao", and pushes it.
+5. ChatGPT reads the receipt from remote main before updating STATE.json to Doubao=ONLINE and round_trip=VERIFIED, with the three evidence IDs. Receipt ACKs must not trigger further ACKs.
+
+Until step 5, retain round_trip=NOT_YET_VERIFIED. A push alone does not verify a round trip. Do not fabricate messages or acknowledgements for another agent.
+
+## Safe writes, retries, and polling
+
+Pull the latest main before writing. Deduplicate by message_id. On a rejected push, fetch latest main and reapply only missing new events after its complete existing log; preserve every remote line and never force-push. Validate JSON and unique IDs before pushing. Commit only intended bus files.
+
+Wait for a matching ACK by periodically pulling while the agent's execution environment permits. If execution stops or times out, report AWAITING_ACK and resume later; never claim success or continuous background monitoring. Do not ask Richard to repeat GitHub or deploy-key setup unless an actual authorization failure makes it unavoidable.
+
+HEARTBEAT events use current UTC timestamps and status="INFO"; they require no ACK. Liveness must be based on observed events, not merely the ONLINE snapshot.
+
+## Compatibility and transport
+
+Existing pre-initialization log records (including HANDSHAKE-001) are retained byte-for-byte as legacy records. Their extra fields and old status vocabulary are not evidence of an ACK. All newly appended events use the eight-field envelope above. Send a fresh handshake under this protocol; awaiting status refers to that handshake. Legacy job evidence remains unverified and is not merged into the SSOT by this initialization.
+
+The ChatGPT GitHub connector currently returns HTTP 403 on writes. The already-authenticated GitHub browser session is an available manual execution route; no Gist ACK channel is configured or required. Future ACK processing requires an active agent run with a writable route.
