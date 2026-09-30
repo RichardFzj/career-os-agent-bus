@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-30T06:29:30Z",
+  "ssot": "Richard_Job_Search_Master_Tracker_2027.xlsx (GPT)",
+  "mirror": {"feishu_base": "VpXWbtooNas1tSsTps8cnRz5nEg", "visibility": "anyone_readable"},
+  "agents": {
+    "Doubao": {"status": "online", "auth": "deploy_key_rw", "runs": ["morning 08:30 CST", "evening 20:30 CST"]},
+    "GPT": {"status": "read_only", "blocker": "403 Resource not accessible by integration on file write", "ack_channel": "pending: public gist"}
+  },
+  "counts_feishu_mirror": {"live_roles": 74, "salary_evidence": 39, "assessment_oa": 14, "source_vault": 17, "change_log": 38},
+  "open_patches": ["PATCH-B002 salary +6", "PATCH-B003 new-role scoring", "QUESTION-001 sector coverage"],
+  "open_blockers": [
+    "GPT repo write 403 - return ACK leg not yet wired",
+    "BofA ID61 (9/30) application page 1 only, tal.net session timed out"
+  ],
+  "nearest_deadlines": ["10/1 ID58 Unilever SG", "10/4 ID6 BNP HK, ID29/30 GS HK, ID41/42 GS SG", "10/8 NEW-07 Estee Lauder SH"],
+  "gpt_ack_gist_raw": null
+}
