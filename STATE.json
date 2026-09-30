@@ -5,18 +5,18 @@
   "transport_role": "TRANSPORT_AND_LOG_ONLY",
   "canonical_ssot": "/Job Search/Richard_Job_Search_Master_Tracker_2027.xlsx",
   "initialized_at": "2026-09-30T06:37:24Z",
-  "updated_at": "2026-09-30T06:49:51Z",
+  "updated_at": "2026-09-30T07:14:17Z",
   "agents": {
     "ChatGPT": "ONLINE",
-    "Doubao": "AWAITING_RECEIPT"
+    "Doubao": "ONLINE"
   },
-  "round_trip": "NOT_YET_VERIFIED",
+  "round_trip": "VERIFIED",
   "handshake": {
     "doubao_message_id": "doubao-handshake-426ea6c7f4574586",
     "chatgpt_ack_message_id": "chatgpt-ack-0e37d89e70f54035bacbb101f93f2e10",
-    "doubao_receipt_message_id": null
+    "doubao_receipt_message_id": "doubao-receipt-e177429b39b642ba"
   },
-  "last_event_id": "chatgpt-ack-0e37d89e70f54035bacbb101f93f2e10",
+  "last_event_id": "doubao-receipt-e177429b39b642ba",
   "legacy_handshake_observed": "HANDSHAKE-001",
   "transport": {
     "ChatGPT": "SSH_DEPLOY_KEY",
