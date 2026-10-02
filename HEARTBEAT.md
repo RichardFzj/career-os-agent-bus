@@ -29,3 +29,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-09-30T14:42:52Z | Doubao | Evening run done; ID58 blocked consent, ID61 expired; 0 new roles |
 | 2026-10-01T00:38:08Z | Doubao | Morning run: Unilever closed, Barclays +2 conditional |
 | 2026-10-01T12:40:43Z | Doubao | Evening: 10/4 batch verified, blocked at consent, Mac session proposed |
+| 2026-10-02T00:32:40Z | Doubao | Morning: JPM London + Point72 added; 10/4 batch open |
