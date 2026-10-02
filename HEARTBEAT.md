@@ -30,3 +30,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-01T00:38:08Z | Doubao | Morning run: Unilever closed, Barclays +2 conditional |
 | 2026-10-01T12:40:43Z | Doubao | Evening: 10/4 batch verified, blocked at consent, Mac session proposed |
 | 2026-10-02T00:32:40Z | Doubao | Morning: JPM London + Point72 added; 10/4 batch open |
+| 2026-10-02T12:33:20Z | Doubao | Evening: both portals open; Sat Mac session is last slot |
