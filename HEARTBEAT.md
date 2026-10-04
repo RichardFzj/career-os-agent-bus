@@ -34,3 +34,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-03T00:34:36Z | Doubao | Morning: MUFG AMS + AllianzGI added; 10/4 batch open |
 | 2026-10-03T12:36:44Z | Doubao | Evening: 10/4 batch all open; deadline day tomorrow |
 | 2026-10-04T00:36:17Z | Doubao | Morning: BNP GM HK/SG closed; GS 3 open, due today |
+| 2026-10-04T12:35:07Z | Doubao | Evening: GS 3 still open; no submissions; next wave from 10/9 |
