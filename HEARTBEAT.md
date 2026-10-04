@@ -33,3 +33,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-02T12:33:20Z | Doubao | Evening: both portals open; Sat Mac session is last slot |
 | 2026-10-03T00:34:36Z | Doubao | Morning: MUFG AMS + AllianzGI added; 10/4 batch open |
 | 2026-10-03T12:36:44Z | Doubao | Evening: 10/4 batch all open; deadline day tomorrow |
+| 2026-10-04T00:36:17Z | Doubao | Morning: BNP GM HK/SG closed; GS 3 open, due today |
