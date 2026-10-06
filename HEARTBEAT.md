@@ -37,3 +37,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-04T12:35:07Z | Doubao | Evening: GS 3 still open; no submissions; next wave from 10/9 |
 | 2026-10-05T00:36:41Z | Doubao | Morning: NEW-72 GS CapSol + BOCHK prep; due 10/9 |
 | 2026-10-05T12:32:20Z | Doubao | Evening: BOCHK live, GS forms persist; due 10/9 |
+| 2026-10-06T00:36:01Z | Doubao | Morning: BOCHK prep ready; due 10/9 |
