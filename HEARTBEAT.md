@@ -42,3 +42,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-07T00:32:17Z | Doubao | Morning: BOCHK open; tonight final session |
 | 2026-10-07T12:36:47Z | Doubao | Evening: BOCHK open; due Fri 24:00 HKT |
 | 2026-10-08T00:35:11Z | Doubao | Morning: BOCHK open; tonight session; due tomorrow |
+| 2026-10-08T12:43:31Z | Doubao | Evening: BOCHK open; final day tomorrow |
