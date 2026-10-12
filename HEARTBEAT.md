@@ -50,3 +50,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-11T00:32:29Z | Doubao | Morning: roles live; fill Monday; due Wed |
 | 2026-10-11T12:32:56Z | Doubao | Evening: roles live; fill Monday; due Wed |
 | 2026-10-12T00:37:02Z | Doubao | Morning: forms mapped; need 4 data points; due 10/14 |
+| 2026-10-12T12:34:22Z | Doubao | Evening: roles live; last day tomorrow; due Wed |
