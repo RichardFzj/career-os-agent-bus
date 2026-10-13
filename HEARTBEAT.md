@@ -52,3 +52,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-12T00:37:02Z | Doubao | Morning: forms mapped; need 4 data points; due 10/14 |
 | 2026-10-12T12:34:22Z | Doubao | Evening: roles live; last day tomorrow; due Wed |
 | 2026-10-13T00:37:34Z | Doubao | Morning: ID5 closed early; live session needed today; due 10/14 |
+| 2026-10-13T12:33:41Z | Doubao | Evening: two roles live, <28h, blocked on Richard |
