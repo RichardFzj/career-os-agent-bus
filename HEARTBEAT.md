@@ -58,3 +58,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-15T00:32:10Z | Doubao | Morning: NEW-73 Apply still live post-deadline (grace window), urgent |
 | 2026-10-15T12:34:17Z | Doubao | Evening: NEW-73 grace window held ~24h; next 10/18 BCG/BofA |
 | 2026-10-16T00:34:10Z | Doubao | Morning 10/16: DWS grace 36h live; 10/18 BCG+BofA confirmed |
+| 2026-10-16T12:37:29Z | Doubao | Evening 10/16: DWS grace day3 live; 10/18 batch ready, blocked |
