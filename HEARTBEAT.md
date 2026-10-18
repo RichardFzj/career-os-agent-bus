@@ -61,3 +61,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-16T12:37:29Z | Doubao | Evening 10/16: DWS grace day3 live; 10/18 batch ready, blocked |
 | 2026-10-17T00:36:04Z | Doubao | Morning 10/17: 10/18=BCG+BofA SG; KL GPS corrected to 11/1; DWS grace d4 |
 | 2026-10-17T12:32:17Z | Doubao | Evening 10/17 deadline eve: BCG+BofA SG live; DWS grace d4; blocked |
+| 2026-10-18T00:34:04Z | Doubao | Morning 10/18 deadline day: BofA SG CLOSED unapplied; BCG still open today; DWS grace d5 |
