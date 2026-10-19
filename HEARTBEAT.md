@@ -64,3 +64,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-18T00:34:04Z | Doubao | Morning 10/18 deadline day: BofA SG CLOSED unapplied; BCG still open today; DWS grace d5 |
 | 2026-10-18T12:37:08Z | Doubao | Evening 10/18 end of deadline: BCG page still shows window, unapplied; next 10/23+10/25 |
 | 2026-10-19T00:37:46Z | Doubao | Morning 10/19: BCG grace Apply active behind login (B); DWS grace d6; next 10/23 |
+| 2026-10-19T12:35:43Z | Doubao | Evening 10/19: BCG filled/closed; 10/18 batch done; next 10/23 |
