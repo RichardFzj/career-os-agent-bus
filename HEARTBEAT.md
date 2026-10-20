@@ -65,3 +65,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-18T12:37:08Z | Doubao | Evening 10/18 end of deadline: BCG page still shows window, unapplied; next 10/23+10/25 |
 | 2026-10-19T00:37:46Z | Doubao | Morning 10/19: BCG grace Apply active behind login (B); DWS grace d6; next 10/23 |
 | 2026-10-19T12:35:43Z | Doubao | Evening 10/19: BCG filled/closed; 10/18 batch done; next 10/23 |
+| 2026-10-20T00:33:57Z | Doubao | Morning 10/20: Trafigura prep done (10/23); DWS grace d7; blocker phone+session |
