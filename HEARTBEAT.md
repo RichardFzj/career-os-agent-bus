@@ -74,3 +74,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-23T00:33:46Z | Doubao | Morning 10/23: Trafigura deadline today; blocker phone+session |
 | 2026-10-23T12:35:04Z | Doubao | Evening 10/23: Trafigura deadline day, still live; unapplied; blocker phone+session |
 | 2026-10-24T00:31:41Z | Doubao | Morning 10/24: Trafigura CLOSED (no grace, unapplied); next 10/25 four roles |
+| 2026-10-24T12:35:30Z | Doubao | Evening 10/24: 10/25 four roles open pre-deadline; blocker phone+session |
