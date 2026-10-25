@@ -76,3 +76,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-24T00:31:41Z | Doubao | Morning 10/24: Trafigura CLOSED (no grace, unapplied); next 10/25 four roles |
 | 2026-10-24T12:35:30Z | Doubao | Evening 10/24: 10/25 four roles open pre-deadline; blocker phone+session |
 | 2026-10-25T00:34:49Z | Doubao | Morning 10/25: DEADLINE DAY, four roles open; blocker phone+session |
+| 2026-10-25T01:36:58Z | Doubao | Morning 09:36 re-confirm: deadline-day four roles open; no change |
