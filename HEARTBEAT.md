@@ -81,3 +81,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-26T00:34:51Z | Doubao | Morning 10/26: 3/4 closed, BlackRock possible grace Cloudflare-blocked |
 | 2026-10-26T12:33:24Z | Doubao | Evening 10/26: BlackRock Apply still shown Cloudflare-blocked; DWS d13; next 10/30 |
 | 2026-10-27T00:34:00Z | Doubao | Morning 10/27: BlackRock day2 Apply (Cloudflare-blocked); DWS d14; next 10/30 |
+| 2026-10-27T12:37:10Z | Doubao | Evening 10/27: 10/30 batch 2/3 pre-closed, only BR Paris |
