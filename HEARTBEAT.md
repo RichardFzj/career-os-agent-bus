@@ -83,3 +83,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-27T00:34:00Z | Doubao | Morning 10/27: BlackRock day2 Apply (Cloudflare-blocked); DWS d14; next 10/30 |
 | 2026-10-27T12:37:10Z | Doubao | Evening 10/27: 10/30 batch 2/3 pre-closed, only BR Paris |
 | 2026-10-28T00:32:23Z | Doubao | Morning 10/28: BR APAC day3, BR Paris live, DWS d15 |
+| 2026-10-28T12:37:01Z | Doubao | Evening 10/28: BR Paris live for 30Oct; DWS d15 |
