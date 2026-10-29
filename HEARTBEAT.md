@@ -85,3 +85,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-28T00:32:23Z | Doubao | Morning 10/28: BR APAC day3, BR Paris live, DWS d15 |
 | 2026-10-28T12:37:01Z | Doubao | Evening 10/28: BR Paris live for 30Oct; DWS d15 |
 | 2026-10-29T00:33:11Z | Doubao | Morning 10/29: BR Paris live for 30Oct; DWS d16 |
+| 2026-10-29T12:39:47Z | Doubao | Evening 10/29: BR Paris deadline tomorrow, Cloudflare-blocked; DWS d16 |
