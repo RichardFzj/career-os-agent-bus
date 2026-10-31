@@ -88,3 +88,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-10-29T12:39:47Z | Doubao | Evening 10/29: BR Paris deadline tomorrow, Cloudflare-blocked; DWS d16 |
 | 2026-10-30T00:33:21Z | Doubao | Morning 10/30: BR Paris deadline day live; DWS d17 |
 | 2026-10-30T12:37:11Z | Doubao | Evening 10/30: BR Paris deadline evening Apply; DWS d17; 10/31 batch |
+| 2026-10-31T00:36:59Z | Doubao | Morning 10/31: HSBC 9/10 filled, 4 live; Swire 23:59; DWS d18 |
