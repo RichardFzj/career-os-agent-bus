@@ -93,3 +93,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-01T00:38:28Z | Doubao | Morning 11/1: 4 HSBC+Swire closed; DWS d19; JPM due |
 | 2026-11-01T12:39:36Z | Doubao | Evening 11/1: BofA edge-blocked; JPM Oracle; DWS d19 |
 | 2026-11-02T00:37:22Z | Doubao | Morning 11/2: P&G/Accenture reachable; BofA edge; DWS d20 |
+| 2026-11-03T00:33:36Z | Doubao | Morning 11/3: BofA edge d3; DWS d21; BR apply |
