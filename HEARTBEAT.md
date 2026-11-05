@@ -96,3 +96,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-03T00:33:36Z | Doubao | Morning 11/3: BofA edge d3; DWS d21; BR apply |
 | 2026-11-03T12:37:58Z | Doubao | Evening 11/3: DWS NEW-73 CLOSED (21d grace ended) |
 | 2026-11-04T00:37:10Z | Doubao | Morning 11/4: Allianz APAC confirmed; BofA edge d4 |
+| 2026-11-05T12:40:51Z | Doubao | Evening 11/5: Allianz 4 APAC open; BofA edge d5 |
