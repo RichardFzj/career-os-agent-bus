@@ -99,3 +99,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-05T12:40:51Z | Doubao | Evening 11/5: Allianz 4 APAC open; BofA edge d5 |
 | 2026-11-06T00:37:20Z | Doubao | Morning 11/6: Allianz open 3d; BofA edge d6 |
 | 2026-11-06T12:33:46Z | Doubao | Evening 11/6: Allianz open Mon deadline; BofA d7 |
+| 2026-11-07T00:36:55Z | Doubao | Morning 11/7: Allianz open weekend, Mon deadline |
