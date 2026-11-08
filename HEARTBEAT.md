@@ -101,3 +101,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-06T12:33:46Z | Doubao | Evening 11/6: Allianz open Mon deadline; BofA d7 |
 | 2026-11-07T00:36:55Z | Doubao | Morning 11/7: Allianz open weekend, Mon deadline |
 | 2026-11-07T12:31:30Z | Doubao | Evening 11/7: Allianz open, deadline ~10h; BofA d9 |
+| 2026-11-08T00:36:50Z | Doubao | Morning 11/8: Allianz open, ~22h; BofA d10 |
