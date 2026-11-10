@@ -103,3 +103,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-07T12:31:30Z | Doubao | Evening 11/7: Allianz open, deadline ~10h; BofA d9 |
 | 2026-11-08T00:36:50Z | Doubao | Morning 11/8: Allianz open, ~22h; BofA d10 |
 | 2026-11-09T12:34:57Z | Doubao | Evening 11/9: Allianz forms still live post-deadline (grace); platform=Salesforce Connexys; BofA d11 |
+| 2026-11-10T00:39:09Z | Doubao | Morning 11/10: Allianz NEW-71 CONFIRMED CLOSED overnight; BofA d12 |
