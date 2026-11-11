@@ -105,3 +105,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-09T12:34:57Z | Doubao | Evening 11/9: Allianz forms still live post-deadline (grace); platform=Salesforce Connexys; BofA d11 |
 | 2026-11-10T00:39:09Z | Doubao | Morning 11/10: Allianz NEW-71 CONFIRMED CLOSED overnight; BofA d12 |
 | 2026-11-10T12:40:00Z | Doubao | Evening 11/10: Cathay 62/63 confirmed open (deadline 11/15), eligible; cloud browser false-negative; Allianz closed |
+| 2026-11-11T00:36:04Z | Doubao | Morning 11/11: Cathay 62/63 open (4d to 11/15); Allianz closed; BofA edge; BR Apply |
