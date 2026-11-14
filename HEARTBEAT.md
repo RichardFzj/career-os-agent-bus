@@ -112,3 +112,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-13T00:32:58Z | Doubao | Morning 11/13: Cathay 32408/32409 live (2 days); awaiting Richard phone + HK decision; Mac offline |
 | 2026-11-13T12:34:55Z | Doubao | Evening 11/13: Cathay live, tomorrow last window; Mac offline; awaiting Richard phone/HK |
 | 2026-11-14T00:32:51Z | Doubao | Morning 11/14: Cathay live, today last window; Mac offline; awaiting Richard phone/HK |
+| 2026-11-14T12:32:59Z | Doubao | Evening 11/14: Cathay deadline tomorrow; Mac offline; fallback Hang Seng 11/30 |
