@@ -111,3 +111,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-12T12:39:25Z | Doubao | Evening 11/12 (correction): Cathay re-posted as 32408/32409 (old 32165/32166 404); Lumesse form mapped; phone + consent blockers |
 | 2026-11-13T00:32:58Z | Doubao | Morning 11/13: Cathay 32408/32409 live (2 days); awaiting Richard phone + HK decision; Mac offline |
 | 2026-11-13T12:34:55Z | Doubao | Evening 11/13: Cathay live, tomorrow last window; Mac offline; awaiting Richard phone/HK |
+| 2026-11-14T00:32:51Z | Doubao | Morning 11/14: Cathay live, today last window; Mac offline; awaiting Richard phone/HK |
