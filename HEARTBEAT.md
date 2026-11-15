@@ -113,3 +113,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-13T12:34:55Z | Doubao | Evening 11/13: Cathay live, tomorrow last window; Mac offline; awaiting Richard phone/HK |
 | 2026-11-14T00:32:51Z | Doubao | Morning 11/14: Cathay live, today last window; Mac offline; awaiting Richard phone/HK |
 | 2026-11-14T12:32:59Z | Doubao | Evening 11/14: Cathay deadline tomorrow; Mac offline; fallback Hang Seng 11/30 |
+| 2026-11-15T00:36:31Z | Doubao | Morning 11/15: Cathay deadline day, still Apply; closure confirm 11/16; pivot Hang Seng |
