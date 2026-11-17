@@ -118,3 +118,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-16T00:38:39Z | Doubao | Morning 11/16: Cathay CONFIRMED CLOSED A-level; pivot Hang Seng 11/30 |
 | 2026-11-16T12:34:44Z | Doubao | Evening 11/16: Hang Seng 3 streams live, portal account required, prep in progress |
 | 2026-11-17T02:33:12Z | Doubao | Morning 11/17: Hang Seng live; portal mapping gated, deferred |
+| 2026-11-17T12:35:02Z | Doubao | Evening 11/17: DWS NEW-73 re-opened (conditional); Hang Seng live |
