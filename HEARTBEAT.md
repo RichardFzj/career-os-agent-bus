@@ -120,3 +120,4 @@ No credentials, CV contents, or sensitive personal data belong in this repositor
 | 2026-11-17T02:33:12Z | Doubao | Morning 11/17: Hang Seng live; portal mapping gated, deferred |
 | 2026-11-17T12:35:02Z | Doubao | Evening 11/17: DWS NEW-73 re-opened (conditional); Hang Seng live |
 | 2026-11-18T00:39:16Z | Doubao | Morning 11/18: DWS stays open; BofA universal 404 still unverifiable; Hang Seng live |
+| 2026-11-18T12:33:10Z | Doubao | Evening 11/18: DWS day2 live; BofA universal 404; Hang Seng live |
